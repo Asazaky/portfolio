@@ -1,0 +1,33 @@
+.container {
+  margin: 10px 10px 10px 10px;
+}
+
+.navbar {
+  background-color: gray;
+  margin: 0px 0px 0px 0px !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__left-side{
+    margin-left: 50px;
+    &--title{
+      color: white;
+      font-size: 20px;
+    }
+
+  }
+  &__right-side{
+    margin-right: 50px;
+    display: flex;
+
+    &--a{
+      padding-right: 10px;
+      color: white;
+    }
+
+    &--b{
+      color: white;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+/**
+ * file: asset/styles/scss/_layout.scss
+ * date: 22/11/2021
+ * Description: Arquivo responsável pelo tamanho das telas
+ * author: Juan Carlos Peñalosa e Matheus Silva
+ */
+
+@import '_colors';
+
+//<!-- Configuração de telas de dispositivos -->
+
+@mixin small_to_medium_tablet {
+  @media (min-width: 600px) and (max-width: 959px) {
+    @content;
+  }
+}
+//<!-- FIM - Configuração de telas de dispositivos -->
+
+@include small_to_medium_tablet {
+  
+}
