@@ -1,9 +1,9 @@
 <script setup lang="ts"></script>
 
 <template>
-  <header></header>
-
   <RouterView />
 </template>
 
-<style scoped></style>
+<style scoped lang="scss">
+@import '@/assets/scss/index';
+</style>
